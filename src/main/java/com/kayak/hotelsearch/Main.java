@@ -31,8 +31,8 @@ public class Main {
 
     public static void main(String[] args) {
         // ===== SECTION 1: PERSONAL INFORMATION =====
-        logger.error("William Zinkann");
-        logger.info("Yes, I prefer working from the office because it helps me stay focused, collaborate more effectively with my team, and maintain a clear boundary between work and personal life.");
+        System.err.println("William Zinkann");
+        System.err.println("Yes, I prefer working from the office because it helps me stay focused, collaborate more effectively with my team, and maintain a clear boundary between work and personal life.");
 
         // ===== SECTION 2: ROOM MANAGEMENT INITIALIZATION =====
         roomService.initializeRooms();
