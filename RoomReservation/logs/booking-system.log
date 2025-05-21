@@ -1,0 +1,192 @@
+2025-05-21 12:42:16.691 [main] INFO  c.k.h.RoomDatabaseAccessService - Successfully booked room 101
+2025-05-21 12:42:16.693 [main] INFO  c.k.h.RoomDatabaseAccessService - Released room 101
+2025-05-21 12:42:16.694 [main] INFO  c.k.h.RoomDatabaseAccessService - Successfully booked room 101
+2025-05-21 12:42:16.698 [main] WARN  c.k.h.RoomDatabaseAccessService - Room 999 not found
+2025-05-21 12:42:16.699 [main] INFO  c.k.h.RoomDatabaseAccessService - Successfully booked room 101
+2025-05-21 12:42:16.700 [main] INFO  c.k.h.RoomDatabaseAccessService - Successfully booked room 101
+2025-05-21 12:42:16.700 [main] WARN  c.k.h.RoomDatabaseAccessService - Room 999 not found
+2025-05-21 12:42:16.721 [main] INFO  c.k.h.RoomDatabaseAccessService - Successfully booked room 101
+2025-05-21 12:42:16.724 [pool-6-thread-2] INFO  c.k.h.RoomDatabaseAccessService - Successfully booked room 101
+2025-05-21 12:42:16.724 [pool-6-thread-3] INFO  c.k.h.RoomDatabaseAccessService - Successfully booked room 101
+2025-05-21 12:42:16.725 [pool-6-thread-4] INFO  c.k.h.RoomDatabaseAccessService - Successfully booked room 101
+2025-05-21 12:42:16.725 [pool-6-thread-1] INFO  c.k.h.RoomDatabaseAccessService - Successfully booked room 101
+2025-05-21 12:42:16.725 [pool-6-thread-4] INFO  c.k.h.RoomDatabaseAccessService - Successfully booked room 101
+2025-05-21 12:42:16.725 [pool-6-thread-1] INFO  c.k.h.RoomDatabaseAccessService - Retrying booking for room 101 (attempt 2/3)
+2025-05-21 12:42:16.725 [pool-6-thread-3] INFO  c.k.h.RoomDatabaseAccessService - Retrying booking for room 101 (attempt 2/3)
+2025-05-21 12:42:16.725 [pool-6-thread-2] INFO  c.k.h.RoomDatabaseAccessService - Retrying booking for room 101 (attempt 2/3)
+2025-05-21 12:42:16.725 [pool-6-thread-5] INFO  c.k.h.RoomDatabaseAccessService - Retrying booking for room 101 (attempt 2/3)
+2025-05-21 12:42:16.829 [pool-6-thread-5] INFO  c.k.h.RoomDatabaseAccessService - Retrying booking for room 101 (attempt 3/3)
+2025-05-21 12:42:16.829 [pool-6-thread-1] INFO  c.k.h.RoomDatabaseAccessService - Retrying booking for room 101 (attempt 3/3)
+2025-05-21 12:42:16.829 [pool-6-thread-2] INFO  c.k.h.RoomDatabaseAccessService - Retrying booking for room 101 (attempt 3/3)
+2025-05-21 12:42:16.829 [pool-6-thread-3] INFO  c.k.h.RoomDatabaseAccessService - Retrying booking for room 101 (attempt 3/3)
+2025-05-21 12:42:16.935 [pool-6-thread-1] WARN  c.k.h.RoomDatabaseAccessService - Failed to book room 101 after 3 attempts
+2025-05-21 12:42:16.935 [pool-6-thread-2] WARN  c.k.h.RoomDatabaseAccessService - Failed to book room 101 after 3 attempts
+2025-05-21 12:42:16.935 [pool-6-thread-5] WARN  c.k.h.RoomDatabaseAccessService - Failed to book room 101 after 3 attempts
+2025-05-21 12:42:16.935 [pool-6-thread-3] WARN  c.k.h.RoomDatabaseAccessService - Failed to book room 101 after 3 attempts
+2025-05-21 12:42:16.956 [main] INFO  c.k.h.RoomDatabaseAccessService - Cleared all rooms from database
+2025-05-21 12:42:16.959 [main] INFO  c.k.h.RoomDatabaseAccessService - Successfully booked room 101
+2025-05-21 12:42:16.959 [main] INFO  c.k.h.RoomDatabaseAccessService - Released room 101
+2025-05-21 12:42:16.960 [main] WARN  c.k.h.RoomDatabaseAccessService - Room 999 not found
+2025-05-21 12:42:16.961 [main] INFO  c.k.h.RoomDatabaseAccessService - Successfully booked room 101
+2025-05-21 12:42:16.963 [Thread-1] INFO  c.k.h.RoomDatabaseAccessService - Successfully booked room 101
+2025-05-21 12:42:16.963 [Thread-2] INFO  c.k.h.RoomDatabaseAccessService - Successfully booked room 101
+2025-05-21 12:43:17.094 [main] INFO  c.k.h.RoomDatabaseAccessService - Successfully booked room 101
+2025-05-21 12:43:17.096 [main] INFO  c.k.h.RoomDatabaseAccessService - Released room 101
+2025-05-21 12:43:17.096 [main] INFO  c.k.h.RoomDatabaseAccessService - Successfully booked room 101
+2025-05-21 12:43:17.100 [main] WARN  c.k.h.RoomDatabaseAccessService - Room 999 not found
+2025-05-21 12:43:17.102 [main] INFO  c.k.h.RoomDatabaseAccessService - Successfully booked room 101
+2025-05-21 12:43:17.102 [main] INFO  c.k.h.RoomDatabaseAccessService - Successfully booked room 101
+2025-05-21 12:43:17.102 [main] WARN  c.k.h.RoomDatabaseAccessService - Room 999 not found
+2025-05-21 12:43:17.125 [main] INFO  c.k.h.RoomDatabaseAccessService - Successfully booked room 101
+2025-05-21 12:43:17.128 [pool-6-thread-2] INFO  c.k.h.RoomDatabaseAccessService - Successfully booked room 101
+2025-05-21 12:43:17.128 [pool-6-thread-3] INFO  c.k.h.RoomDatabaseAccessService - Successfully booked room 101
+2025-05-21 12:43:17.128 [pool-6-thread-4] INFO  c.k.h.RoomDatabaseAccessService - Successfully booked room 101
+2025-05-21 12:43:17.128 [pool-6-thread-1] INFO  c.k.h.RoomDatabaseAccessService - Successfully booked room 101
+2025-05-21 12:43:17.128 [pool-6-thread-2] INFO  c.k.h.RoomDatabaseAccessService - Retrying booking for room 101 (attempt 2/3)
+2025-05-21 12:43:17.128 [pool-6-thread-1] INFO  c.k.h.RoomDatabaseAccessService - Retrying booking for room 101 (attempt 2/3)
+2025-05-21 12:43:17.128 [pool-6-thread-5] INFO  c.k.h.RoomDatabaseAccessService - Successfully booked room 101
+2025-05-21 12:43:17.128 [pool-6-thread-4] INFO  c.k.h.RoomDatabaseAccessService - Retrying booking for room 101 (attempt 2/3)
+2025-05-21 12:43:17.128 [pool-6-thread-3] INFO  c.k.h.RoomDatabaseAccessService - Retrying booking for room 101 (attempt 2/3)
+2025-05-21 12:43:17.230 [pool-6-thread-4] INFO  c.k.h.RoomDatabaseAccessService - Retrying booking for room 101 (attempt 3/3)
+2025-05-21 12:43:17.230 [pool-6-thread-2] INFO  c.k.h.RoomDatabaseAccessService - Retrying booking for room 101 (attempt 3/3)
+2025-05-21 12:43:17.230 [pool-6-thread-3] INFO  c.k.h.RoomDatabaseAccessService - Retrying booking for room 101 (attempt 3/3)
+2025-05-21 12:43:17.230 [pool-6-thread-1] INFO  c.k.h.RoomDatabaseAccessService - Retrying booking for room 101 (attempt 3/3)
+2025-05-21 12:43:17.335 [pool-6-thread-4] WARN  c.k.h.RoomDatabaseAccessService - Failed to book room 101 after 3 attempts
+2025-05-21 12:43:17.335 [pool-6-thread-2] WARN  c.k.h.RoomDatabaseAccessService - Failed to book room 101 after 3 attempts
+2025-05-21 12:43:17.335 [pool-6-thread-1] WARN  c.k.h.RoomDatabaseAccessService - Failed to book room 101 after 3 attempts
+2025-05-21 12:43:17.335 [pool-6-thread-3] WARN  c.k.h.RoomDatabaseAccessService - Failed to book room 101 after 3 attempts
+2025-05-21 12:43:17.357 [main] INFO  c.k.h.RoomDatabaseAccessService - Cleared all rooms from database
+2025-05-21 12:43:17.362 [main] INFO  c.k.h.RoomDatabaseAccessService - Successfully booked room 101
+2025-05-21 12:43:17.363 [main] INFO  c.k.h.RoomDatabaseAccessService - Released room 101
+2025-05-21 12:43:17.365 [main] WARN  c.k.h.RoomDatabaseAccessService - Room 999 not found
+2025-05-21 12:43:17.366 [main] INFO  c.k.h.RoomDatabaseAccessService - Successfully booked room 101
+2025-05-21 12:43:17.367 [Thread-1] INFO  c.k.h.RoomDatabaseAccessService - Successfully booked room 101
+2025-05-21 12:43:17.367 [Thread-2] INFO  c.k.h.RoomDatabaseAccessService - Successfully booked room 101
+2025-05-21 12:44:50.700 [main] INFO  c.k.h.RoomDatabaseAccessService - Successfully booked room 101
+2025-05-21 12:44:50.703 [main] INFO  c.k.h.RoomDatabaseAccessService - Released room 101
+2025-05-21 12:44:50.703 [main] INFO  c.k.h.RoomDatabaseAccessService - Successfully booked room 101
+2025-05-21 12:44:50.707 [main] WARN  c.k.h.RoomDatabaseAccessService - Room 999 not found
+2025-05-21 12:44:50.709 [main] INFO  c.k.h.RoomDatabaseAccessService - Successfully booked room 101
+2025-05-21 12:44:50.709 [main] INFO  c.k.h.RoomDatabaseAccessService - Successfully booked room 101
+2025-05-21 12:44:50.709 [main] WARN  c.k.h.RoomDatabaseAccessService - Room 999 not found
+2025-05-21 12:44:50.727 [main] INFO  c.k.h.RoomDatabaseAccessService - Successfully booked room 101
+2025-05-21 12:44:50.730 [pool-6-thread-3] INFO  c.k.h.RoomDatabaseAccessService - Successfully booked room 101
+2025-05-21 12:44:50.730 [pool-6-thread-2] INFO  c.k.h.RoomDatabaseAccessService - Successfully booked room 101
+2025-05-21 12:44:50.730 [pool-6-thread-4] INFO  c.k.h.RoomDatabaseAccessService - Successfully booked room 101
+2025-05-21 12:44:50.730 [pool-6-thread-5] INFO  c.k.h.RoomDatabaseAccessService - Successfully booked room 101
+2025-05-21 12:44:50.730 [pool-6-thread-4] INFO  c.k.h.RoomDatabaseAccessService - Successfully booked room 101
+2025-05-21 12:44:50.730 [pool-6-thread-5] INFO  c.k.h.RoomDatabaseAccessService - Retrying booking for room 101 (attempt 2/3)
+2025-05-21 12:44:50.730 [pool-6-thread-4] INFO  c.k.h.RoomDatabaseAccessService - Retrying booking for room 101 (attempt 2/3)
+2025-05-21 12:44:50.730 [pool-6-thread-1] INFO  c.k.h.RoomDatabaseAccessService - Retrying booking for room 101 (attempt 2/3)
+2025-05-21 12:44:50.730 [pool-6-thread-3] INFO  c.k.h.RoomDatabaseAccessService - Retrying booking for room 101 (attempt 2/3)
+2025-05-21 12:44:50.831 [pool-6-thread-3] INFO  c.k.h.RoomDatabaseAccessService - Retrying booking for room 101 (attempt 3/3)
+2025-05-21 12:44:50.832 [pool-6-thread-1] INFO  c.k.h.RoomDatabaseAccessService - Retrying booking for room 101 (attempt 3/3)
+2025-05-21 12:44:50.832 [pool-6-thread-5] INFO  c.k.h.RoomDatabaseAccessService - Retrying booking for room 101 (attempt 3/3)
+2025-05-21 12:44:50.832 [pool-6-thread-4] INFO  c.k.h.RoomDatabaseAccessService - Retrying booking for room 101 (attempt 3/3)
+2025-05-21 12:44:50.934 [pool-6-thread-1] WARN  c.k.h.RoomDatabaseAccessService - Failed to book room 101 after 3 attempts
+2025-05-21 12:44:50.934 [pool-6-thread-3] WARN  c.k.h.RoomDatabaseAccessService - Failed to book room 101 after 3 attempts
+2025-05-21 12:44:50.934 [pool-6-thread-5] WARN  c.k.h.RoomDatabaseAccessService - Failed to book room 101 after 3 attempts
+2025-05-21 12:44:50.938 [pool-6-thread-4] WARN  c.k.h.RoomDatabaseAccessService - Failed to book room 101 after 3 attempts
+2025-05-21 12:44:50.960 [main] INFO  c.k.h.RoomDatabaseAccessService - Cleared all rooms from database
+2025-05-21 12:44:50.962 [main] INFO  c.k.h.RoomDatabaseAccessService - Successfully booked room 101
+2025-05-21 12:44:50.962 [main] INFO  c.k.h.RoomDatabaseAccessService - Released room 101
+2025-05-21 12:44:50.963 [main] WARN  c.k.h.RoomDatabaseAccessService - Room 999 not found
+2025-05-21 12:44:50.964 [main] INFO  c.k.h.RoomDatabaseAccessService - Successfully booked room 101
+2025-05-21 12:44:50.966 [Thread-2] INFO  c.k.h.RoomDatabaseAccessService - Successfully booked room 101
+2025-05-21 12:44:50.966 [Thread-1] INFO  c.k.h.RoomDatabaseAccessService - Successfully booked room 101
+2025-05-21 12:45:02.538 [main] INFO  c.k.h.RoomDatabaseAccessService - Successfully booked room 101
+2025-05-21 12:45:02.541 [main] INFO  c.k.h.RoomDatabaseAccessService - Released room 101
+2025-05-21 12:45:02.541 [main] INFO  c.k.h.RoomDatabaseAccessService - Successfully booked room 101
+2025-05-21 12:45:02.545 [main] WARN  c.k.h.RoomDatabaseAccessService - Room 999 not found
+2025-05-21 12:45:02.547 [main] INFO  c.k.h.RoomDatabaseAccessService - Successfully booked room 101
+2025-05-21 12:45:02.547 [main] INFO  c.k.h.RoomDatabaseAccessService - Successfully booked room 101
+2025-05-21 12:45:02.547 [main] WARN  c.k.h.RoomDatabaseAccessService - Room 999 not found
+2025-05-21 12:45:02.565 [main] INFO  c.k.h.RoomDatabaseAccessService - Successfully booked room 101
+2025-05-21 12:45:02.568 [pool-6-thread-2] INFO  c.k.h.RoomDatabaseAccessService - Successfully booked room 101
+2025-05-21 12:45:02.568 [pool-6-thread-3] INFO  c.k.h.RoomDatabaseAccessService - Successfully booked room 101
+2025-05-21 12:45:02.568 [pool-6-thread-5] INFO  c.k.h.RoomDatabaseAccessService - Successfully booked room 101
+2025-05-21 12:45:02.568 [pool-6-thread-4] INFO  c.k.h.RoomDatabaseAccessService - Successfully booked room 101
+2025-05-21 12:45:02.568 [pool-6-thread-5] INFO  c.k.h.RoomDatabaseAccessService - Retrying booking for room 101 (attempt 2/3)
+2025-05-21 12:45:02.568 [pool-6-thread-1] INFO  c.k.h.RoomDatabaseAccessService - Successfully booked room 101
+2025-05-21 12:45:02.568 [pool-6-thread-3] INFO  c.k.h.RoomDatabaseAccessService - Retrying booking for room 101 (attempt 2/3)
+2025-05-21 12:45:02.568 [pool-6-thread-2] INFO  c.k.h.RoomDatabaseAccessService - Retrying booking for room 101 (attempt 2/3)
+2025-05-21 12:45:02.568 [pool-6-thread-4] INFO  c.k.h.RoomDatabaseAccessService - Retrying booking for room 101 (attempt 2/3)
+2025-05-21 12:45:02.673 [pool-6-thread-2] INFO  c.k.h.RoomDatabaseAccessService - Retrying booking for room 101 (attempt 3/3)
+2025-05-21 12:45:02.673 [pool-6-thread-3] INFO  c.k.h.RoomDatabaseAccessService - Retrying booking for room 101 (attempt 3/3)
+2025-05-21 12:45:02.673 [pool-6-thread-5] INFO  c.k.h.RoomDatabaseAccessService - Retrying booking for room 101 (attempt 3/3)
+2025-05-21 12:45:02.673 [pool-6-thread-4] INFO  c.k.h.RoomDatabaseAccessService - Retrying booking for room 101 (attempt 3/3)
+2025-05-21 12:45:02.778 [pool-6-thread-4] WARN  c.k.h.RoomDatabaseAccessService - Failed to book room 101 after 3 attempts
+2025-05-21 12:45:02.778 [pool-6-thread-5] WARN  c.k.h.RoomDatabaseAccessService - Failed to book room 101 after 3 attempts
+2025-05-21 12:45:02.778 [pool-6-thread-2] WARN  c.k.h.RoomDatabaseAccessService - Failed to book room 101 after 3 attempts
+2025-05-21 12:45:02.778 [pool-6-thread-3] WARN  c.k.h.RoomDatabaseAccessService - Failed to book room 101 after 3 attempts
+2025-05-21 12:45:02.798 [main] INFO  c.k.h.RoomDatabaseAccessService - Cleared all rooms from database
+2025-05-21 12:45:02.801 [main] INFO  c.k.h.RoomDatabaseAccessService - Successfully booked room 101
+2025-05-21 12:45:02.801 [main] INFO  c.k.h.RoomDatabaseAccessService - Released room 101
+2025-05-21 12:45:02.802 [main] WARN  c.k.h.RoomDatabaseAccessService - Room 999 not found
+2025-05-21 12:45:02.803 [main] INFO  c.k.h.RoomDatabaseAccessService - Successfully booked room 101
+2025-05-21 12:45:02.804 [Thread-2] INFO  c.k.h.RoomDatabaseAccessService - Successfully booked room 101
+2025-05-21 12:45:02.804 [Thread-1] INFO  c.k.h.RoomDatabaseAccessService - Successfully booked room 101
+2025-05-21 12:59:03.771 [main] INFO  c.k.h.RoomDatabaseAccessService - Successfully booked room 101
+2025-05-21 12:59:03.774 [main] INFO  c.k.h.RoomDatabaseAccessService - Released room 101
+2025-05-21 12:59:03.775 [main] INFO  c.k.h.RoomDatabaseAccessService - Successfully booked room 101
+2025-05-21 12:59:03.779 [main] WARN  c.k.h.RoomDatabaseAccessService - Room 999 not found
+2025-05-21 12:59:03.781 [main] INFO  c.k.h.RoomDatabaseAccessService - Successfully booked room 101
+2025-05-21 12:59:03.781 [main] INFO  c.k.h.RoomDatabaseAccessService - Successfully booked room 101
+2025-05-21 12:59:03.781 [main] WARN  c.k.h.RoomDatabaseAccessService - Room 999 not found
+2025-05-21 12:59:03.800 [main] INFO  c.k.h.RoomDatabaseAccessService - Successfully booked room 101
+2025-05-21 12:59:03.803 [pool-6-thread-2] INFO  c.k.h.RoomDatabaseAccessService - Successfully booked room 101
+2025-05-21 12:59:03.803 [pool-6-thread-4] INFO  c.k.h.RoomDatabaseAccessService - Successfully booked room 101
+2025-05-21 12:59:03.803 [pool-6-thread-3] INFO  c.k.h.RoomDatabaseAccessService - Successfully booked room 101
+2025-05-21 12:59:03.803 [pool-6-thread-5] INFO  c.k.h.RoomDatabaseAccessService - Successfully booked room 101
+2025-05-21 12:59:03.803 [pool-6-thread-2] INFO  c.k.h.RoomDatabaseAccessService - Successfully booked room 101
+2025-05-21 12:59:03.803 [pool-6-thread-1] INFO  c.k.h.RoomDatabaseAccessService - Retrying booking for room 101 (attempt 2/3)
+2025-05-21 12:59:03.803 [pool-6-thread-4] INFO  c.k.h.RoomDatabaseAccessService - Retrying booking for room 101 (attempt 2/3)
+2025-05-21 12:59:03.803 [pool-6-thread-3] INFO  c.k.h.RoomDatabaseAccessService - Retrying booking for room 101 (attempt 2/3)
+2025-05-21 12:59:03.803 [pool-6-thread-2] INFO  c.k.h.RoomDatabaseAccessService - Retrying booking for room 101 (attempt 2/3)
+2025-05-21 12:59:03.907 [pool-6-thread-4] INFO  c.k.h.RoomDatabaseAccessService - Retrying booking for room 101 (attempt 3/3)
+2025-05-21 12:59:03.907 [pool-6-thread-3] INFO  c.k.h.RoomDatabaseAccessService - Retrying booking for room 101 (attempt 3/3)
+2025-05-21 12:59:03.907 [pool-6-thread-1] INFO  c.k.h.RoomDatabaseAccessService - Retrying booking for room 101 (attempt 3/3)
+2025-05-21 12:59:03.907 [pool-6-thread-2] INFO  c.k.h.RoomDatabaseAccessService - Retrying booking for room 101 (attempt 3/3)
+2025-05-21 12:59:04.012 [pool-6-thread-3] WARN  c.k.h.RoomDatabaseAccessService - Failed to book room 101 after 3 attempts
+2025-05-21 12:59:04.012 [pool-6-thread-2] WARN  c.k.h.RoomDatabaseAccessService - Failed to book room 101 after 3 attempts
+2025-05-21 12:59:04.012 [pool-6-thread-4] WARN  c.k.h.RoomDatabaseAccessService - Failed to book room 101 after 3 attempts
+2025-05-21 12:59:04.013 [pool-6-thread-1] WARN  c.k.h.RoomDatabaseAccessService - Failed to book room 101 after 3 attempts
+2025-05-21 12:59:04.032 [main] INFO  c.k.h.RoomDatabaseAccessService - Cleared all rooms from database
+2025-05-21 12:59:04.034 [main] INFO  c.k.h.RoomDatabaseAccessService - Successfully booked room 101
+2025-05-21 12:59:04.035 [main] INFO  c.k.h.RoomDatabaseAccessService - Released room 101
+2025-05-21 12:59:04.035 [main] WARN  c.k.h.RoomDatabaseAccessService - Room 999 not found
+2025-05-21 12:59:04.036 [main] INFO  c.k.h.RoomDatabaseAccessService - Successfully booked room 101
+2025-05-21 12:59:04.037 [Thread-1] INFO  c.k.h.RoomDatabaseAccessService - Successfully booked room 101
+2025-05-21 12:59:04.037 [Thread-2] INFO  c.k.h.RoomDatabaseAccessService - Successfully booked room 101
+2025-05-21 12:59:54.710 [main] INFO  c.k.h.RoomDatabaseAccessService - Successfully booked room 101
+2025-05-21 12:59:54.713 [main] INFO  c.k.h.RoomDatabaseAccessService - Released room 101
+2025-05-21 12:59:54.713 [main] INFO  c.k.h.RoomDatabaseAccessService - Successfully booked room 101
+2025-05-21 12:59:54.717 [main] WARN  c.k.h.RoomDatabaseAccessService - Room 999 not found
+2025-05-21 12:59:54.719 [main] INFO  c.k.h.RoomDatabaseAccessService - Successfully booked room 101
+2025-05-21 12:59:54.720 [main] INFO  c.k.h.RoomDatabaseAccessService - Successfully booked room 101
+2025-05-21 12:59:54.720 [main] WARN  c.k.h.RoomDatabaseAccessService - Room 999 not found
+2025-05-21 12:59:54.739 [main] INFO  c.k.h.RoomDatabaseAccessService - Successfully booked room 101
+2025-05-21 12:59:54.743 [pool-6-thread-3] INFO  c.k.h.RoomDatabaseAccessService - Successfully booked room 101
+2025-05-21 12:59:54.743 [pool-6-thread-2] INFO  c.k.h.RoomDatabaseAccessService - Successfully booked room 101
+2025-05-21 12:59:54.743 [pool-6-thread-1] INFO  c.k.h.RoomDatabaseAccessService - Successfully booked room 101
+2025-05-21 12:59:54.743 [pool-6-thread-4] INFO  c.k.h.RoomDatabaseAccessService - Successfully booked room 101
+2025-05-21 12:59:54.743 [pool-6-thread-5] INFO  c.k.h.RoomDatabaseAccessService - Successfully booked room 101
+2025-05-21 12:59:54.743 [pool-6-thread-3] INFO  c.k.h.RoomDatabaseAccessService - Retrying booking for room 101 (attempt 2/3)
+2025-05-21 12:59:54.743 [pool-6-thread-2] INFO  c.k.h.RoomDatabaseAccessService - Retrying booking for room 101 (attempt 2/3)
+2025-05-21 12:59:54.743 [pool-6-thread-1] INFO  c.k.h.RoomDatabaseAccessService - Retrying booking for room 101 (attempt 2/3)
+2025-05-21 12:59:54.743 [pool-6-thread-4] INFO  c.k.h.RoomDatabaseAccessService - Retrying booking for room 101 (attempt 2/3)
+2025-05-21 12:59:54.848 [pool-6-thread-3] INFO  c.k.h.RoomDatabaseAccessService - Retrying booking for room 101 (attempt 3/3)
+2025-05-21 12:59:54.848 [pool-6-thread-2] INFO  c.k.h.RoomDatabaseAccessService - Retrying booking for room 101 (attempt 3/3)
+2025-05-21 12:59:54.848 [pool-6-thread-4] INFO  c.k.h.RoomDatabaseAccessService - Retrying booking for room 101 (attempt 3/3)
+2025-05-21 12:59:54.848 [pool-6-thread-1] INFO  c.k.h.RoomDatabaseAccessService - Retrying booking for room 101 (attempt 3/3)
+2025-05-21 12:59:54.954 [pool-6-thread-3] WARN  c.k.h.RoomDatabaseAccessService - Failed to book room 101 after 3 attempts
+2025-05-21 12:59:54.954 [pool-6-thread-1] WARN  c.k.h.RoomDatabaseAccessService - Failed to book room 101 after 3 attempts
+2025-05-21 12:59:54.955 [pool-6-thread-4] WARN  c.k.h.RoomDatabaseAccessService - Failed to book room 101 after 3 attempts
+2025-05-21 12:59:54.955 [pool-6-thread-2] WARN  c.k.h.RoomDatabaseAccessService - Failed to book room 101 after 3 attempts
+2025-05-21 12:59:54.966 [main] INFO  c.k.h.RoomDatabaseAccessService - Cleared all rooms from database
+2025-05-21 12:59:54.968 [main] INFO  c.k.h.RoomDatabaseAccessService - Successfully booked room 101
+2025-05-21 12:59:54.968 [main] INFO  c.k.h.RoomDatabaseAccessService - Released room 101
+2025-05-21 12:59:54.969 [main] WARN  c.k.h.RoomDatabaseAccessService - Room 999 not found
+2025-05-21 12:59:54.969 [main] INFO  c.k.h.RoomDatabaseAccessService - Successfully booked room 101
+2025-05-21 12:59:54.971 [Thread-2] INFO  c.k.h.RoomDatabaseAccessService - Successfully booked room 101
+2025-05-21 12:59:54.971 [Thread-1] INFO  c.k.h.RoomDatabaseAccessService - Successfully booked room 101
