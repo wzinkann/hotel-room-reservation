@@ -1,5 +1,7 @@
 package com.kayak.hotelsearch;
 
+import com.kayak.hotelsearch.room.RoomType;
+
 public class Room {
     private int roomNumber;
     private boolean isAvailable;
@@ -7,6 +9,8 @@ public class Room {
     private String checkInDate;
     private String checkOutDate;
     private int availableRooms;
+    private RoomType roomType;
+    private double price;
 
     public Room(int roomNumber) {
         this.roomNumber = roomNumber;
@@ -24,6 +28,17 @@ public class Room {
         this.checkInDate = null;
         this.checkOutDate = null;
         this.availableRooms = availableRooms;
+    }
+
+    public Room(int roomNumber, RoomType roomType, double price, boolean isAvailable) {
+        this.roomNumber = roomNumber;
+        this.roomType = roomType;
+        this.price = price;
+        this.isAvailable = isAvailable;
+        this.currentGuest = null;
+        this.checkInDate = null;
+        this.checkOutDate = null;
+        this.availableRooms = 1;
     }
 
     public int getRoomNumber() {
@@ -71,9 +86,11 @@ public class Room {
     }
 
     public boolean bookRoom() {
-        if (isAvailable && availableRooms > 0) {
-            isAvailable = false;
+        if (availableRooms > 0) {
             availableRooms--;
+            if (availableRooms == 0) {
+                isAvailable = false;
+            }
             return true;
         }
         return false;
@@ -85,6 +102,14 @@ public class Room {
         currentGuest = null;
         checkInDate = null;
         checkOutDate = null;
+    }
+
+    public RoomType getRoomType() {
+        return roomType;
+    }
+
+    public double getPrice() {
+        return price;
     }
 
     @Override

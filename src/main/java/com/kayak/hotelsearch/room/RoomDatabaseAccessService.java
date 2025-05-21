@@ -2,6 +2,7 @@ package com.kayak.hotelsearch.room;
 
 import java.util.HashMap;
 import java.util.Map;
+import com.kayak.hotelsearch.Room;
 
 public class RoomDatabaseAccessService {
     private static RoomDatabaseAccessService instance;
@@ -46,5 +47,15 @@ public class RoomDatabaseAccessService {
         System.out.println("Loading room " + roomNumber + " from database");
         Room room = roomCache.get(roomNumber);
         return room;
+    }
+
+    public boolean bookRoom(int roomNumber) {
+        Room room = roomCache.get(roomNumber);
+        if (room != null) {
+            synchronized (room) {
+                return room.bookRoom();
+            }
+        }
+        return false;
     }
 }
