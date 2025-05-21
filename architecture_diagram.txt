@@ -1,0 +1,21 @@
++------------------------------+       +------------------------------+       +------------------------------+
+|                              |       |                              |       |                              |
+|  BookingRequest              |------>|  RoomDatabase                |------>|  Room                        |
+|                              |       |  AccessService               |       |                              |
+|  - requestId                 |       |  - bookRoom()                |       |  - roomNumber                |
+|  - guestName                 |       |  - releaseRoom()             |       |  - availableRooms            |
+|  - roomNumber                |       |  - getRoom()                 |       |                              |
+|  - checkIn                   |       |                              |       |                              |
+|  - checkOut                  |       |                              |       |                              |
+|  - status                    |       |                              |       |                              |
++------------------------------+       +------------------------------+       +------------------------------+
+        |                                       |                                       |
+        v                                       v                                       v
++------------------------------+       +------------------------------+       +------------------------------+
+|                              |       |                              |       |                              |
+|  Metrics                     |<------|  Main                        |<------|  BookingSystem               |
+|                              |       |                              |       |                              |
+|  - successRate               |       |  - initializeRooms()         |       |  - processBooking()          |
+|  - avgProcessingTime         |       |  - createBookingRequests()   |       |  - handleConcurrentBookings()|
+|  - concurrentBookingCount    |       |                              |       |                              |
++------------------------------+       +------------------------------+       +------------------------------+ 
